@@ -1,0 +1,16 @@
+.jumbotron {
+  background-color: lightgreen;
+  text-align: center;
+  font-weight: bolder;
+  font-family: sans-serif;
+  padding: 20px;
+}
+.sidebar {
+  background-color: lightgrey;
+  border: 10px solid black;
+  border-width: thin;
+  padding: 10px;
+}
+h3 {
+  color: red;
+}
