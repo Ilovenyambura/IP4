@@ -14,3 +14,10 @@
 h3 {
   color: red;
 }
+.play {
+  color: purple;
+  font-weight: bold;
+}
+.scores {
+  text-decoration: underline;
+}

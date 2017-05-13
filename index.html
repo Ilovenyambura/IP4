@@ -12,8 +12,8 @@
       <h1>Pig Dice</h1>
       </div>
 
-      <div class="container row">
-      <div class="col-md-6">
+      <div class="container-fluid row">
+      <div class="col-md-4">
       <div class="sidebar">
       <h3><em>Instructions on how to play the game:</em></h3>
       <p>During each turn, a player repeatedly rolls a dice untile he/she rolls a 1 or decides to "hold".</p>
@@ -26,9 +26,37 @@
       </div>
       </div>
 
-        <div class="col-md-6">
+        <div class="col-md-4">
           <h2>Start playing!</h2>
+          <h3><span class="play">Player 1</h3></span>
+          <form id="pig-dice">
+          <div class="form-group">
+            <label for="player1-name">Insert name:</label>
+            <input type="text" class="form-control" id="player1-name">
+          </div>
           <button type="submit" class="btn btn-info">Roll Dice</button>
+          <button type="submit" class="btn btn-warning">Hold</button>
+          <p><strong>Temporary Score:</p></strong>
+          <ul class="output">
+          </ul>
+          <h3><span class="play">Player 2</h3></span>
+          <div class="form-group">
+            <label for="player2-name">Insert name:</label>
+            <input type="text" class="form-control" id="player2-name">
+          </div>
+          <button type="submit" class="btn btn-info">Roll Dice</button>
+          <button type="submit" class="btn btn-warning">Hold</button>
+          <p><strong>Temporary Score:</p></strong>
+          <ul class="output">
+          </ul>
+        </div>
+
+        <div class="col-md-4">
+          <h2><span class="scores">Scores</h2></span>
+          <p><strong>Player 1;Total Score:</p></strong>
+          <ul class="output">
+          </ul>
+          <p><strong>Player 2;Total Score:</p></strong>
           <ul class="output">
           </ul>
         </div>
