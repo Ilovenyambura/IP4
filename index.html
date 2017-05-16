@@ -29,36 +29,19 @@
         <div class="col-md-4">
           <h2>Start playing!</h2>
           <h3><span class="play">Player 1</h3></span>
-          <form id="pig-dice">
-          <div class="form-group">
-            <label for="player1-name">Insert name:</label>
-            <input type="text" class="form-control" id="player1-name">
-          </div>
-          <button type="submit" class="btn btn-info">Roll Dice</button>
-          <button type="submit" class="btn btn-warning">Hold</button>
-          <p><strong>Temporary Score:</p></strong>
-          <ul class="output">
-          </ul>
+          <button id="dice" type="submit" class="btn btn-info">Roll Dice</button>
+          <button id="hld" type="submit" class="btn btn-warning">Hold</button>
+          <p><strong>Temporary Score:<span id="ts"></span></p></strong>
           <h3><span class="play">Player 2</h3></span>
-          <div class="form-group">
-            <label for="player2-name">Insert name:</label>
-            <input type="text" class="form-control" id="player2-name">
-          </div>
-          <button type="submit" class="btn btn-info">Roll Dice</button>
-          <button type="submit" class="btn btn-warning">Hold</button>
-          <p><strong>Temporary Score:</p></strong>
-          <ul class="output">
-          </ul>
+          <button id="roll" type="submit" class="btn btn-info">Roll Dice</button>
+          <button id="hold" type="submit" class="btn btn-warning">Hold</button>
+          <p><strong>Temporary Score:<span id="temp"></span></p></strong>
         </div>
 
         <div class="col-md-4">
           <h2><span class="scores">Scores</h2></span>
-          <p><strong>Player 1;Total Score:</p></strong>
-          <ul class="output">
-          </ul>
-          <p><strong>Player 2;Total Score:</p></strong>
-          <ul class="output">
-          </ul>
+          <p><strong>Player 1;Total Score:<span id="total"></span></p></strong>
+          <p><strong>Player 2;Total Score:<span id="score"></span></p></strong>
         </div>
       </div>
 
